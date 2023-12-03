@@ -17,10 +17,49 @@ background: radial-gradient(circle, rgba(255,254,0,1) 0%, rgba(255,181,25,1) 100
       #BTT{
         color:rgb(0, 255, 0);
       }
+      body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
     </style>
   </head>
   <body>
     <center>
+   <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  <p>Some content..</p>
+</div> 
     <h1 style="font-family:Verdana" id="top">DOGS!</h1>
     <p style="font-family: Verdana"> Dogs are wonderful and cute creatures, they are all very diverse and I love them all!<br>There are many breeds and I will provide links, articles, videos and write stuff myself!</p>
    <a target="_blank" href="https://www.akc.org/dog-breeds/">Dog Breeds</a><br>
